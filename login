@@ -3,28 +3,31 @@
 <head>
 </head>
 <body>
-<form action="action_page.php" method="post">
-  <div class="imgcontainer">
-    <img src="img_avatar2.png" alt="Avatar" class="avatar">
-  </div>
+<form>
+	<form action="">
+		<h1>login</h1>
+		<div class="input-box">
+			<input type="text" placeholder="username" required>
+			<i class="bx bxs-user"></i>
+		</div>
+		<div class="input-box">
+			<input type="password" placeholder="password" required>
+			<i class="bx bxs-lock-alt"></i>
+		</div>
+		<div class="remember-forget">
+			<label>
+	<input type="checkbox"> remember me</label>
+	<a href="">forget password?</a></div>
+	<button type="submit" class="btn">login</button>
+	<div class="register-link">
+		<p>don't have an acount ?
+			<a href="">registrater</a></p>
+		</div>
+	</form>
 
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
+ 
+</form>
 </body>
 
 
